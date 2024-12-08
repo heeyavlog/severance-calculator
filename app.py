@@ -122,13 +122,12 @@ def calculate_severance_pay():
                 ''')
             st.markdown('</div>', unsafe_allow_html=True)
 
-         with col_right:
+        with col_right:
             st.markdown('<div class="result-card">', unsafe_allow_html=True)
             st.markdown('### 💵 예상 퇴직금')
-        # ** 대신 <strong> 태그 사용
+            # ** 대신 <strong> 태그 사용
             st.markdown(f'<p class="big-font"><strong>{format_number(severance_pay)}원</strong></p>', unsafe_allow_html=True) 
             st.markdown('</div>', unsafe_allow_html=True)
-
 
         # 그래프 생성 함수 호출
         fig = create_severance_graph(years, salary)
