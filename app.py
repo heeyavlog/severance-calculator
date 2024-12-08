@@ -69,14 +69,14 @@ def calculate_severance_pay():
     if st.button('퇴직금 계산하기', use_container_width=True):
         # 근무일수 계산
         working_days = (end_date - start_date).days
+        years = working_days / 365
         
         if working_days < 365:
             st.error('퇴직금은 1년 이상 근무시에만 발생합니다.')
             return
         
-        # 퇴직금 계산
-        severance_pay = (salary * 30 * working_days) / 365
-        years = working_days / 365
+        # 퇴직금 계산 (정수로 반올림)
+        severance_pay = round((salary * 30 * working_days) / 365)  # round() 함수 추가
         
         # 결과 표시
         col_left, col_right = st.columns(2)
