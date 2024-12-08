@@ -147,16 +147,11 @@ def calculate_severance_pay():
 
             퇴직금 계산과 관련된 더 자세한 정보를 확인해보세요:
 
-            - ✍️ [퇴직금 계산 상세 가이드](https://lzhakko.tistory.com/)
-            - 📚 [근로기준법 해설 및 실무 사례](https://lzhakko.tistory.com/)
-            - 💡 [자주 묻는 퇴직금 질문과 답변](https://lzhakko.tistory.com/)
+            - ✍️ [퇴직금 체불 해결 가이드: 근로기준법과 퇴직금 계산기 활용법](https://lzhakko.tistory.com/entry/%ED%87%B4%EC%A7%81%EA%B8%88-%EC%B2%B4%EB%B6%88-%ED%95%B4%EA%B2%B0-%EA%B0%80%EC%9D%B4%EB%93%9C-%EA%B7%BC%EB%A1%9C%EA%B8%B0%EC%A4%80%EB%B2%95%EA%B3%BC-%ED%87%B4%EC%A7%81%EA%B8%88-%EA%B3%84%EC%82%B0%EA%B8%B0-%ED%99%9C%EC%9A%A9%EB%B2%95)
+            - 📚 [주휴수당 계산기: 쉽게 계산하고 무료로 다운로드하세요!](https://lzhakko.tistory.com/entry/%EC%A3%BC%ED%9C%B4%EC%88%98%EB%8B%B9-%EA%B3%84%EC%82%B0%EA%B8%B0-%EC%89%BD%EA%B2%8C-%EA%B3%84%EC%82%B0%ED%95%98%EA%B3%A0-%EB%AC%B4%EB%A3%8C%EB%A1%9C-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%ED%95%98%EC%84%B8%EC%9A%94)
+            - 💡 [해촉증명서 작성법부터 양식 다운로드까지, 쉽고 간단하게!](https://lzhakko.tistory.com/entry/%ED%95%B4%EC%B4%89%EC%A6%9D%EB%AA%85%EC%84%9C-%EC%9E%91%EC%84%B1%EB%B2%95%EB%B6%80%ED%84%B0-%EC%96%91%EC%8B%9D-%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%EA%B9%8C%EC%A7%80-%EC%89%BD%EA%B3%A0-%EA%B0%84%EB%8B%A8%ED%95%98%EA%B2%8C)
 
-            ### 💪 추천 콘텐츠
-            - ✨ 연차수당 계산기
-            - 📊 4대보험 계산기
-            - 📈 연봉 인상률 계산기
-
-            더 많은 유용한 정보는 [개발하는 나무](https://lzhakko.tistory.com/)에서 확인하세요!
+            더 많은 유용한 정보는 [리즈의 일상백과](https://lzhakko.tistory.com/)에서 확인하세요!
             ''')
 
 if __name__ == '__main__':
