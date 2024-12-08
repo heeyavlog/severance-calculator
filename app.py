@@ -106,7 +106,7 @@ def calculate_severance_pay():
         # 퇴직금 계산 (정수로 반올림)
         if working_days < 365:
             st.warning('1년 미만 근무 시 퇴직금은 근무 기간에 비례하여 계산됩니다.')
-        severance_pay = round((salary / 30) * working_days)  # 1일 평균임금 계산
+        severance_pay = round((salary / 30) * 30 * (working_days / 365))  # 1일 평균임금 계산
 
         # 결과 표시
         col_left, col_right = st.columns(2)
